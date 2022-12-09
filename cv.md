@@ -14,8 +14,6 @@
 
 ##Contacts:##
 
----
-
 - Phone numer: +375 44 550 53 58
 
 - Discord: mgfedor (@BlackMonkMario)
@@ -39,3 +37,19 @@ Specialty: computing machines, systems and networks
 Specialty: banking specialist
 
 ---
+
+##Work experience:##
+
+- **CJSC "ABSOLUTBANK"** - head of department - 2020~2022
+- **JSC "ASB Belarusbank"** - head of department and specialist - 2005~2020
+- **ODO "Beltechplast"** - adjuster - 2002~2005
+
+---
+
+##Personal qualities:##
+
+fast learnability, ability to establish business contacts and develop them, responsibility, attentiveness, leadership qualities, high efficiency, initiative.
+
+---
+
+Knowledge of foreign languages: English at A2 level
