@@ -38,7 +38,7 @@ h2 {
 }
 
 .conteiner {
-  max-width: 1440px;
+  max-width: 1740px;
   margin: 0;
 }
 
@@ -141,8 +141,40 @@ html {
 } */
 
 .footer {
-  padding: 10px 20px;
   background-color: #445760;
-  color: ivory;
+  color: black;
   font-size: 16px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.github-link {
+  /* padding: 0 20px; */
+  line-height: 50px;
+  transition: 0.5s;
+  color: black;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.github-link:hover {
+  color: ivory;
+  text-decoration: underline;
+}
+
+.school-link:hover {
+  color: ivory;
+}
+
+.logo-school {
+  height: 50px;
+  width: 75px;
 }
