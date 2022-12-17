@@ -1,0 +1,180 @@
+@font-face {
+  font-family: Roboto;
+  src: url("rsschool-cv/assets/fonts/Roboto-Regular.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto";
+  font-weight: 400;
+  background: ivory;
+  color: #0f141e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  text-transform: uppercase;
+  padding-left: 40px;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 5px double #445760;
+  color: #445760;
+}
+
+.photo {
+  height: 200px;
+  width: 200px;
+  border-radius: 25%;
+  padding: 10px 10px 0px 10px;
+  margin-bottom: 30px;
+}
+
+.conteiner {
+  max-width: 1740px;
+  margin: 0;
+}
+
+.nav {
+  background-color: #445760;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-link {
+  padding: 0 20px;
+  line-height: 50px;
+  transition: 0.5s;
+  color: black;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: ivory;
+  text-decoration: underline;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.main > .contacts,
+.summary,
+.skills,
+.code,
+.education,
+.lang {
+  width: 50%;
+  color: #445760;
+}
+
+.contacts,
+.summary,
+.skills,
+.code,
+.education,
+.lang {
+  display: block;
+  border-bottom: 1px solid #445760;
+}
+
+.summary,
+.code,
+.lang {
+  padding-left: 20px;
+}
+
+.contacts li,
+.skills li {
+  margin-bottom: 8px;
+  list-style-type: none;
+}
+
+.contact-link {
+  transition: 0.5s;
+  color: #445760;
+  text-decoration: none;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+.ed-link {
+  transition: 0.5s;
+  color: #445760;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.ed-link:hover {
+  text-decoration: underline;
+  color: black;
+}
+
+/* .ed-link:visited {
+  color: black;
+} */
+
+.footer {
+  background-color: #445760;
+  color: black;
+  font-size: 16px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-list {
+  list-style: none;
+}
+
+.github-link {
+  /* padding: 0 20px; */
+  line-height: 50px;
+  transition: 0.5s;
+  color: black;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.github-link:hover {
+  color: ivory;
+  text-decoration: underline;
+}
+
+.school-link:hover {
+  color: ivory;
+}
+
+.logo-school {
+  height: 50px;
+  width: 75px;
+}
