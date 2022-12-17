@@ -136,10 +136,6 @@ html {
   color: black;
 }
 
-/* .ed-link:visited {
-  color: black;
-} */
-
 .footer {
   background-color: #445760;
   color: black;
@@ -157,7 +153,6 @@ html {
 }
 
 .github-link {
-  /* padding: 0 20px; */
   line-height: 50px;
   transition: 0.5s;
   color: black;
